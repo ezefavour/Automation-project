@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 3px solid black;
+  margin: 30px;
+  
+    
+}
+hr{
+    margin-top: 10px;
+    margin: 20px;
+}
+h2{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.first-div{
+    margin-left: 30px;
+    padding: 1px;
+}
+.top-div{
+    margin-left: 50px;
+    border: 1px soli  d;
+    
+}
+.sub-div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+.sub-div ul{
+    display: flex;
+
+}
+.sub-div li{
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.sub-div a{
+    text-decoration: none;
+    float: left;
+    color: blue;
+    text-align: center;
+    padding: 5px 3px;
+    width: 90px;
+    border: 1px solid black;
+    color: black;
+}
+span{
+    color: blue;
+}
+h5{
+    margin-left: 50px;
+}
+.main-div{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 3px;
+    margin-left: 50px;
+}
+.main-div div{
+    background-color:whitesmoke;
+    align-items: center;
+    margin: 10px;
+    width:100%;
+    padding-right:10px ;
+    
+    box-shadow: 0 0 1px rgba(0, 0, 0.9);  
+}
+.email{
+    top: 700px;
+}
+
+.swich{
+    position: relative;
+    display: inline-block;
+    width:150px;
+    height: 25px;
+    margin-left: 200px;
+    bottom: 30px;
+}
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 70%;
+    background-color: blue;
+    transition: 4s;
+    border-radius: 34px;
+}
+.swich input{
+    display: none;
+    ;
+}
+.slider:before
+{
+position: absolute;
+content: "";
+height:15px ;
+width:15px ;
+left: 25px;
+bottom: 5px;
+background-color: white;
+transition: 0.4s;
+border-radius: 50%;
+}
+input{
+    margin-left: 5px;
+    
+}
+@media (max-width: 600px) {
+    body {
+        padding: 100px;
+    }
+}
+
+
+
+
